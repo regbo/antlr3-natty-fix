@@ -341,7 +341,7 @@ public abstract class BaseRecognizer {
 
 	/** Override this method to change where error messages go */
 	public void emitErrorMessage(String msg) {
-		System.err.println(msg);
+		//System.err.println(msg);
 	}
 
 	/** Recover from an error found on the input stream.  This is
